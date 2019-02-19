@@ -27,7 +27,9 @@ class Board extends React.Component {
         return <Square value={i}/>;
     }
 
-    render() {</div>
+    render() {
+        return (
+            <div>
                 <div className="board-row">
                     {this.renderSquare(0)}
                     {this.renderSquare(1)}
